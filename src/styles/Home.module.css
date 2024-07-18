@@ -2,8 +2,17 @@
   padding: 0 2rem;
 }
 
+.header {
+  display: flex;
+  flex: 1;
+  padding: 1rem 0;
+  align-items: center;
+  max-height: 10vh;
+}
+
+
 .main {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
