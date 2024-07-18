@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
       <header className={styles.header}>
         <h1 className={styles.title}>Ad-To-Gas</h1>
-        <div className={styles.button}><ConnectButton /></div>
+        <div className={styles.button}><ConnectButton showBalance={false} accountStatus="address"/></div>
       </header>
 
       <main className={styles.main}>
