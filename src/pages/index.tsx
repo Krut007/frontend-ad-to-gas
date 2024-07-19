@@ -21,11 +21,10 @@ const Home: NextPage = () => {
       </header>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="">Bite</a> + <a href="https://google.com">Chatte</a> + 
-          <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
+        <h3>Destination Address</h3>
+        <textarea name="address" id="0"></textarea>
+        <h3>Transaction Data</h3>
+        <textarea name="data" id="1"></textarea>
     
       </main>
 
